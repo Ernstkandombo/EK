@@ -2,6 +2,13 @@
 label: Project
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  default: projectpage
+  hidden: true
 - name: title
   type: text
   config:
