@@ -34,7 +34,7 @@ layout: default
                                     <div class="pj_txt2">
                                         <h5>PROJECT DETAILS</h5>
                                         <small><strong>Client: </strong></small><small>{{ page.client }}</small><br>
-                                        <small><strong>Date: </strong></small><small>{{ page.date }}</small><br>
+                                        <small><strong>Date: </strong></small><small>{{ page.date | date: "%m/%d/%Y" }}</small><br>
                                         <small><strong>Category: </strong></small><small>{{ page.category }}</small><br>
                                         <small><strong>Tags: </strong></small><small>{{ page.tags }}</small><br>
                                     </div>

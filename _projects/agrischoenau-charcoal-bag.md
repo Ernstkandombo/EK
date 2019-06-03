@@ -2,7 +2,7 @@
 tags:
 - Graphics design
 title: Agrischoenau Charcoal bag
-year: 01/06/2019
+year: 2019
 category: Graphics
 client: Agrischoenau Trading cc
 date: 2019-06-03 00:00:00 +0200

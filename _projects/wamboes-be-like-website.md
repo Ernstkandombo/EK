@@ -4,7 +4,7 @@ tags:
 - Website
 - Graphic Design
 title: Wamboes be like Website
-year: 01/06/2019
+year: 2019
 category: Website
 client: Wamboes be like
 date: 2019-06-03 00:00:00 +0200
