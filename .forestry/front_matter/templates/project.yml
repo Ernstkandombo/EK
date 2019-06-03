@@ -1,4 +1,70 @@
 ---
 label: Project
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: year
+  type: datetime
+  label: year
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
+    export_format: DD/MM/YYYY
+  hidden: true
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Graphics
+    - Website
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: ''
+  label: category
+- name: client
+  type: text
+  config:
+    required: true
+  label: client
+  description: Client Name
+- name: date
+  type: datetime
+  label: date
+  description: date posted
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: DD/MM/YYYY
+  hidden: true
+- name: plogo
+  type: file
+  config:
+    maxSize: 250
+  label: Plogo
+- name: sdesciption
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: sdesciption
+  hidden: false
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
