@@ -2,7 +2,7 @@
 layout: projectpage
 title: project-1
 year: "2017"
-category: website
+category: Website
 client: unam
 date: 2-05-2019
 Plogo: download.jpg

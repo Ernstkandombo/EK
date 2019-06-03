@@ -36,11 +36,11 @@ layout: default
                                     <div class="row">
                     
                                             {% for project in site.projects  %}
-                                                {% if project.categories contains 'website' %}
+                                                {% if project.categories contains 'Website' %}
                                                 <div class="col-lg-4 col-md-6 zxc">
                                                     <a href="{{ project.url }}">
                                                     <div class="card">
-                                                            <img src="{{ site.baseurl }}/assets/img/{{ project.Plogo }}" alt="">
+                                                            <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
                                                             <div class="card_body rt">
                                                                 <small ><strong style="border-bottom: 1px solid #FF4500">{{ project.year }}</strong></small>
                                                                 <div>
@@ -61,11 +61,11 @@ layout: default
                                     <div class="row">
                     
                                             {% for project in site.projects  %}
-                                                    {% if project.categories contains 'graphics' %}
+                                                    {% if project.categories contains 'Graphics' %}
                                                     <div class="col-lg-4 col-md-6 zxc">
                                                         <a href="{{ project.url }}">
                                                         <div class="card">
-                                                                <img src="{{ site.baseurl }}/assets/img/{{ project.Plogo }}" alt="">
+                                                                <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
                                                                 <div class="card_body rt">
                                                                     <small ><strong style="border-bottom: 1px solid #FF4500">{{ project.year }}</strong></small>
                                                                     <div>
