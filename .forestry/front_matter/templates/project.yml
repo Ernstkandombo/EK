@@ -8,7 +8,7 @@ fields:
     required: true
   label: layout
   default: projectpage
-  hidden: true
+  hidden: false
 - name: title
   type: text
   config:
