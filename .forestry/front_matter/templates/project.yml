@@ -23,7 +23,7 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: true
-    export_format: DD/MM/YYYY
+    export_format: YYYY
   hidden: false
 - name: category
   type: select
