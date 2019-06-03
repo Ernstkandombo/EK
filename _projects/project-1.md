@@ -1,11 +1,11 @@
 ---
 layout: projectpage
 title: project-1
-year: "2017"
+year: 2017
 category: Website
 client: unam
-date: 2-05-2019
-Plogo: "/assets/img/download.jpg"
+date: 2/05/2019
+plogo: "/assets/img/download.jpg"
 sdesciption: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos dolore
   illo reiciendis fugit laborum modi excepturi beatae placeat mollitia aut nemo voluptates,
   eaque sint repellat, quod tenetur iusto recusandae?
