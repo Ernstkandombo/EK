@@ -1,4 +1,31 @@
 ---
-label: Project
+label: project
 hide_body: false
-fields: []
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: year
+  label: year
+- type: text
+  name: category
+  label: category
+- type: text
+  name: client
+  label: client
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: Plogo
+  label: Plogo
+- type: textarea
+  name: sdesciption
+  label: sdesciption
+- type: list
+  name: tags
+  label: tags
