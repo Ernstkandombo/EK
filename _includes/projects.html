@@ -21,25 +21,33 @@
                     <li class="nav-item">
                       <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Graphics Designs</a>
                     </li>
+                    
                 </ul>
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row">
-                                {% for project in site.projects  %}
+                        <div class="row ">
+                                {% for project in site.projects limit:6  %}
                                                 {% if project.categories contains 'Website' %}
                                                 <div class="col-lg-4 col-md-6 zxc">
-                                                    <a href="{{ project.url }}">
-                                                    <div class="card">
-                                                            <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
-                                                            <div class="card_body rt">
-                                                                <small ><strong style="border-bottom: 1px solid #FF4500">{{ project.year }}</strong></small>
-                                                                <div>
-                                                                    <h6><strong>{{ project.title }}</strong></h6>
-                                                                    <small><strong>{{ project.category }}</strong></small>
-                                                                </div>
+                                                    <div class="card rounded-0">
+                    
+                                                        <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
+                                                    
+                                                       <div class="overlay">
+                                                            <div class="c_top">
+                                                               <small><strong>{{ project.year }}</strong></small> 
                                                             </div>
-                                                    </div>
-                                                    </a>
+                                                            <div class="c_med">
+                                                                <h5><strong>{{ project.title }}</strong></h5>
+                                                                <small><strong>{{ project.category }}</strong></small>
+                                                            </div>
+                                                            <div class="c_bottom">
+                                                                <span></span> 
+                                                                <a href="{{ project.url }}"><i class="fas fa-code"></i></a>
+                                                            </div>
+                                                       </div>
+                                                    
+                                                </div>
                                                 </div>
                                                 {% endif %}
                                            {% endfor %}
@@ -53,18 +61,25 @@
                                 {% for project in site.projects  %}
                                 {% if project.categories contains 'Graphics' %}
                                 <div class="col-lg-4 col-md-6 zxc">
-                                    <a href="{{ project.url }}">
-                                    <div class="card">
-                                            <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
-                                            <div class="card_body rt">
-                                                <small ><strong style="border-bottom: 1px solid #FF4500">{{ project.year }}</strong></small>
-                                                <div>
-                                                    <h6><strong>{{ project.title }}</strong></h6>
-                                                    <small><strong>{{ project.category }}</strong></small>
-                                                </div>
+                                    <div class="card rounded-0">
+                    
+                                        <img src="{{ site.baseurl }}{{ project.plogo }}" alt="">
+                                    
+                                       <div class="overlay">
+                                            <div class="c_top">
+                                               <small><strong>{{ project.year }}</strong></small> 
                                             </div>
-                                    </div>
-                                    </a>
+                                            <div class="c_med">
+                                                <h5><strong>{{ project.title }}</strong></h5>
+                                                <small><strong>{{ project.category }}</strong></small>
+                                            </div>
+                                            <div class="c_bottom">
+                                                <span></span>
+                                                <a href="{{ project.url }}"><i class="fas fa-palette"></i></a>
+                                            </div>
+                                       </div>
+                                    
+                                </div>
                                 </div>
                                 {% endif %}
                         {% endfor %}

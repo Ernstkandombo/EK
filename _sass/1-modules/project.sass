@@ -37,38 +37,74 @@
             width: 100%
         
 .tab-pane
-    padding: 20px 20px 60px 20px
+    padding: 20px 0px 60px 0px
+    margin: 0
     
 .card
     margin: 15px
     width: 100%
     height: 250px
     border-radius: 10px
-    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.15), -5px -5px 30px 7px rgba(0, 0, 0, 0.12)
-    cursor: pointer
+    background-color: #222222
+    //box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.15), -5px -5px 30px 7px rgba(0, 0, 0, 0.12)
+    
     transition: 0.4s
-    &:hover
-        transform: scale(0.97, 0.97)
-        box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.15), -5px -5px 30px 15px rgba(0, 0, 0, 0.12)
+    &:hover .overlay
+        opacity: 1
+       
 
 .card img
-    width: inherit
-    height: inherit
+    width: 100%
+    height: 99.9%
+    margin-left: auto
+    margin-right: auto
     object-fit: contain
-    border-radius: 10px
+    -webkit-filter: grayscale(100%)
+    filter: grayscale(100%)
+    //-radius: 10px
+.card
+    .overlay 
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        background-color: #111111
+        overflow: hidden
+        width: 100%
+        height: 100%
+        color: #fff
+        border: 3px solid #333333
+        padding: 20px
+        opacity: 0
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        -webkit-transition: .3s ease
+        transition: .6s ease
+        .c_top
+            small
+                strong
+                    color: orangered
+        .c_med
+            text-align: center
+            small
+                strong
+                    color: orangered  
+        .c_bottom
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            padding: 2px
+             
+            i
+                color: #ffffff
+                transition: .6s ease
+                font-size: 25px
+                padding-right: 0px
+                &:hover
+                    color: orangered
 
-.card_body
-    position: absolute
-    bottom: 0
-    right: 0
-    padding: 10px
-    background-color: rgba(68, 68, 68, 0.9)
-    width: 55%
-    height: inherit
-    border-radius: 5px 10px 10px 5px
-    color: #fff
-    small
-        color: #FF4500
     
 .rt
     text-align: left

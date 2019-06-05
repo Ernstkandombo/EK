@@ -1,6 +1,6 @@
 ---
 layout: projectpage
-title: project-1 ekwsgdfk4thrh iuergfduvgu eruighiu
+title: project-1
 year: 2017
 category: Website
 client: unam

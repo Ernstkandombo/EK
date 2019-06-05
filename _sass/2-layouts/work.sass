@@ -8,6 +8,8 @@
         
 
 #All_Projects
+    background-color: #111111
+    color: #ffffff
     .down_w
         display: flex
         justify-content: center
@@ -15,9 +17,7 @@
         i
             font-size: 35px
             color: #FF4500
-    .active
-        a
-            color: #FF4500
+    
     .nav-item .active
         &::after
             content: ''
@@ -29,7 +29,6 @@
 
     .nav-link
         background-color: inherit
-        color: #FF4500
         font-size: 18px
         font-weight: bold
         &::after
@@ -40,6 +39,14 @@
             background:  #FF4500
             transition: width .6s
         &:hover
-            color: #000
             &::after
                 width: 100%
+.bvd
+    height: 55%
+    width: 100%
+    padding: 20px
+    position: absolute
+    top: 0
+    background-color: #222222
+    -webkit-clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%)
+    clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%)
