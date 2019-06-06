@@ -18,9 +18,23 @@ tags:
 
 ## ueasdghjk
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos dolore illo reiciendis fugit laborum modi excepturi beatae placeat mollitia aut nemo voluptates, eaque sint repellat, quod tenetur iusto recusandae?![](/assets/img/download.png)
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos dolore illo reiciendis fugit laborum modi excepturi beatae placeat mollitia aut nemo voluptates, eaque sint repellat, quod tenetur iusto recusandae?
 
-\***
+<div class="row">
+
+<div class="col-lg-6">
+
+![](/assets/img/download.png)
+
+</div>
+
+<div class="col-lg-6">
+
+![](/assets/img/download1.png)
+
+</div>
+
+</div>
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos dolore illo reiciendis fugit laborum modi excepturi beatae placeat mollitia aut nemo voluptates, eaque sint repellat, quod tenetur iusto recusandae?
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos dolore illo reiciendis fugit laborum modi excepturi beatae placeat mollitia aut nemo voluptates, eaque sint repellat, quod tenetur iusto recusandae?
