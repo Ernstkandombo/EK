@@ -76,7 +76,7 @@ fields:
   default: []
   label: tags
 pages:
+- _projects/infinity-website.md
+- _projects/wamboes-be-like-website.md
 - _projects/power-africa-logo.md
 - _projects/agrischoenau-charcoal-bag.md
-- _projects/wamboes-be-like-website.md
-- _projects/infinity-website.md
